@@ -1,0 +1,7 @@
+echo "Hello to my program!"
+
+echo "Enter your name please: "
+
+read name 
+
+echo "Your name was: $name"

@@ -1,0 +1,8 @@
+echo 'this is my first script in nano'
+
+myvariable="this is a cool string"
+
+# I am about to say something in a variable
+
+echo $myvariable
+
