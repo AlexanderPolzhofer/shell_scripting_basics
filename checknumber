@@ -1,0 +1,19 @@
+echo "Hello, to my little program!"
+echo "Type in a number:"
+read -p "Number: " number
+
+if [ $number -eq 5 ]; then 
+echo "equal to the power of five"
+exit 0
+elif [ $number -gt 10 ]; then
+echo "your number is greater than ten!"
+exit 0
+elif [ $number -lt 3 ]; then
+echo "your number is very small!"
+exit 0
+else 
+echo "no match found!"
+exit 1
+fi
+
+echo "Your number was: $number"
