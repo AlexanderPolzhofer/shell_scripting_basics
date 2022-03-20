@@ -1,0 +1,10 @@
+function greetingUserAndCreateFile() {
+echo "Hello $1"
+sleep 2
+echo "Create a file: named greetingFile"
+sleep 2
+touch greeting
+echo "File created!"
+}
+
+greetingUserAndCreateFile "Alex"
